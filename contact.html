@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!--
+	Name: Jacob Bensen
+	Date Created: 3/27/19
+	Most recent revision: 3/27/19
+-->
+
+<html lang="en">
+	<head>
+		<title>SS - Menu</title>
+	</head>
+	<body>
+		<main>
+
+			<header>
+				<h1>Southern Served</h1>
+			</header>
+
+			<hr />
+			<nav>
+				<p><a href="index.html">Home</a></p>
+				<p><a href="menu.html">Menu</a></p>
+				<p><a href="contact.html">Contact us</a></p>
+			</nav>
+			<hr />
+
+			<section>
+				<form action="request.html" method="POST">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name">
+					<br /><br />
+					<label for="email">Email:</label>
+					<input type="text" id="email" name="email">
+					<br /><br />
+					<label for="phone">Phone:</label>
+					<input type="text" id="phone" name="phone">
+					<br /><br />
+					<label for="reason">Reason for Inquiry:</label>
+					<select id="reason" name="reason">
+						<option value="catering" selected>Catering</option>
+						<option value="privateParty">Private Party</option>
+						<option value="feedback">Feedback</option>
+						<option value="other">Other</option>
+					</select>
+					<br /><br />
+					<label for="info">Additional Information</label>
+					<textarea id="info" name="info"></textarea>
+					<br /><br />
+					<legend>Have you been to the restaurant?</legend>
+					<input type="radio" id="choice1" name="visited" value="yes">
+					<label for="choice1">Yes</label>
+					<input type="radio" id="choice2" name="visited" value="no">
+					<label for="choice2">No</label>
+					<br /><br />
+					<legend>Best days to contact you:</legend>
+					<input type="checkbox" id="monday" name="contactDays" value="monday">
+					<label for="monday">M</label>
+					<input type="checkbox" id="tuesday" name="contactDays" value="tuesday">
+					<label for="tuesday">T</label>
+					<input type="checkbox" id="wednesday" name="contactDays" value="wednesday">
+					<label for="wednesday">W</label>
+					<input type="checkbox" id="thursday" name="contactDays" value="thursday">
+					<label for="thursday">Th</label>
+					<input type="checkbox" id="friday" name="contactDays" value="friday">
+					<label for="friday">F</label>
+					<br /><br />
+					<input type="submit" name="sendRequest" value="Send Request">
+				</form>
+			</section>
+
+			<footer>
+				<hr />
+				<p>12345 Southern Dr, Roseville, MN, 55113</p>
+				<p>612-555-1234</p>
+			</footer>
+		</main>
+	</body>
+</html>
