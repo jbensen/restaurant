@@ -1,0 +1,53 @@
+/*
+Creator: Jacob Bensen
+Date created: 3/30/19
+Date last modified: 3/30/19
+*/
+
+body {
+	background-color: lightgrey;
+	font-family: arial, helvetica, sans-serif;
+	color: black;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+header, footer {
+	background-color: maroon;
+	color: lightgrey;
+	font-weight: bold;
+	text-align: center;
+	height: 60px;
+	padding: 30px 10px 90px 10px;
+}
+header {
+	font-family: 'Mrs Sheppards', cursive;
+	padding-top: 40px;
+}
+
+nav {
+	border-top: thin #5b7d87 solid;
+	border-bottom: thin #5b7d87 solid;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+nav .btn {
+	background-color: maroon;
+	color: yellow;
+}
+nav .btn:hover {
+	font-weight: bold;
+}
+nav a:visited {
+	color: lightgrey;
+}
+
+.centered {
+	float: none;
+	margin: auto;
+	max-width: 450px;
+}
+
+
+
+
