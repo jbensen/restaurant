@@ -54,6 +54,9 @@
 				padding-left: 5px;
 				padding-right: 15px;
 			}
+			.required {
+				font-weight: bold;
+			}
 			input[type=submit] {
 				background-color: maroon;
 				color: lightgrey;
@@ -88,7 +91,7 @@
 
 					<div class="row">
 						<div class="col-4">
-							<label for="name">Name:</label>
+							<label class="required" for="name">Name:</label>
 						</div>
 						<div class="col-4">
 							<input type="text" id="name" name="name">
@@ -97,7 +100,7 @@
 
 					<div class="row">
 						<div class="col-4">
-							<label for="email">Email:</label>
+							<label class="required" for="email">Email:</label>
 						</div>
 						<div class="col-4">
 							<input type="text" id="email" name="email">
@@ -106,7 +109,7 @@
 
 					<div class="row">
 						<div class="col-4">
-							<label for="phone">Phone:</label>
+							<label class="required" for="phone">Phone:</label>
 						</div>
 						<div class="col-4">
 							<input type="text" id="phone" name="phone">
@@ -115,7 +118,7 @@
 
 					<div class="row">
 						<div class="col-4">
-							<label for="reason">Reason for Inquiry:</label>
+							<label class="required" for="reason">Reason for Inquiry:</label>
 						</div>
 						<div class="col-4">
 							<select id="reason" name="reason">
@@ -138,7 +141,7 @@
 					
 					<div class="row">
 						<div class="col-4">
-							<label>Have you been to the restaurant?</label>
+							<label class="required">Have you been to the restaurant?</label>
 						</div>
 						<div class="radio">
 							<input class="resetStyle" type="radio" id="choice1" name="visited" value="yes">
@@ -152,7 +155,7 @@
 
 					<div class="row">
 						<div class="col-4">
-							<label>Best days to contact you:</label>
+							<label class="required">Best days to contact you:</label>
 						</div>
 						<div class="col-8">
 							<div class="check">
