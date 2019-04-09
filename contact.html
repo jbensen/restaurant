@@ -11,9 +11,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link href="https://fonts.googleapis.com/css?family=Mrs+Sheppards" rel="stylesheet">
-
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 		<title>SS - Contact</title>
-
 		<style>
 			form {
 				padding: 30px 0px;
@@ -69,26 +68,26 @@
 				border: thin solid black;
 			}
 		</style>
-
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<div class="container-fluid">
-
 			<header>
 				<h1>Southern Served</h1>
 			</header>
-
 			<nav>
-				<a class="btn badge-pill" href="index.html">Home</a>
+				<a class="btn badge-pill" href="index.html"><span class="fas fa-home"></span></a>
 				<a class="btn badge-pill" href="menu.html">Menu</a>
 				<a class="btn badge-pill" href="contact.html">Contact us</a>
 			</nav>
-
+			<noscript>
+				<div class="noScript">
+					<span>JavaScript is not enabled. This site is better viewed with JavaScript enabled.</span>
+				</div>
+			</noscript>
 			<section>
 				<form action="request.html" method="POST">
-
 					<div class="row">
 						<div class="col-4">
 							<label class="required" for="name">Name:</label>
@@ -97,7 +96,6 @@
 							<input type="text" id="name" name="name">
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-4">
 							<label class="required" for="email">Email:</label>
@@ -106,7 +104,6 @@
 							<input type="text" id="email" name="email">
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-4">
 							<label class="required" for="phone">Phone:</label>
@@ -115,7 +112,6 @@
 							<input type="text" id="phone" name="phone">
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-4">
 							<label class="required" for="reason">Reason for Inquiry:</label>
@@ -129,7 +125,6 @@
 							</select>
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-4">
 							<label for="info">Additional Information:</label>
@@ -138,7 +133,6 @@
 							<textarea id="info" name="info"></textarea>
 						</div>
 					</div>
-					
 					<div class="row">
 						<div class="col-4">
 							<label class="required">Have you been to the restaurant?</label>
@@ -152,7 +146,6 @@
 							<label class="resetStyle" for="choice2">No</label>
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-4">
 							<label class="required">Best days to contact you:</label>
@@ -188,7 +181,10 @@
 					</div>
 				</form>
 			</section>
-
+			<div class="jumbotron">
+				<h2 class="font-italic">Big News - Southern Served is opening a new location!</h2>
+				<h4>543 Fake St, Maple Grove, MN, 55369</h4>
+			</div>
 			<footer>
 				<p>12345 Southern Dr, Roseville, MN, 55113</p>
 				<p>612-555-1234</p>

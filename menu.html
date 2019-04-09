@@ -11,97 +11,101 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link href="https://fonts.googleapis.com/css?family=Mrs+Sheppards" rel="stylesheet">
-
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 		<title>SS - Menu</title>
-
 		<style>
+			.row{
+				text-align: center;
+				padding: 10px;
+			}
+			.col-lg-4{
+				padding: 10px;
+			}
 			table {
 				width: 100%;
 				table-layout: fixed;
 				text-align: center;
+				max-width: 450px;
+				margin: auto;
 			}
 			td {
-				padding: 25px;
+				padding: 0px;
 				vertical-align: top;
 			}
 			b {
 				font-size: 1.1em;
 			}
-			.bev {
-				padding: 0px;
-			}
-			#bev {
-				max-width: 450px;
-				margin: auto;
-			}
 		</style>
-
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<div class="container-fluid">
-
 			<header>
 				<h1>Southern Served</h1>
 			</header>
-
 			<nav>
-				<a class="btn badge-pill" href="index.html">Home</a>
+				<a class="btn badge-pill" href="index.html"><span class="fas fa-home"></span></a>
 				<a class="btn badge-pill" href="menu.html">Menu</a>
 				<a class="btn badge-pill" href="contact.html">Contact us</a>
 			</nav>
-
+			<noscript>
+				<div class="noScript">
+					<span>JavaScript is not enabled. This site is better viewed with JavaScript enabled.</span>
+				</div>
+			</noscript>
 			<section>
-				<table>
-					<tr>
-						<td>
-							<b>Cajun Crawfish</b><br />Crawfish by the pound! Seasoned with our signature blend of spices. Served with half-corn cobs and red potatoes.<br />$7.99/lb
-						</td>
-						<td>
-							<b>Southern-Style Catfish</b><br />Deep fried cat fish seasoned with our signature spice mix. Served with fries and Tartar sauce.<br />$11.99
-						</td>
-						<td>
-							<b>Alligator Tail</b><br />Louisiana alligator tail deep fried. Served with fries and your choice of sauce.<br />$11.99
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<b>Boudin</b><br />Pork and rice sausage with casing removed, rolled into balls, breaded, and deep fried.  Served with Creole mustard sauce.<br />$6.99
-						</td>
-						<td>
-							<b>Shrimp Po-boy Sandwhich</b><br />Crispy fried shrimp on buttered french bread with cabbage and our signature sauce. Served with fries.<br />$7.99
-						</td>
-						<td>
-							<b>Jambalaya</b><br />Sausage, chicken, and shrimp with mixed vegetables, rice, and our signature sauce. Can be ordered extra spicy!<br />$8.99
-						</td>
-					</tr>
-				</table>
-				<br />
-							
+				<div class="mainMenu">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<b>Cajun Crawfish</b><br />Crawfish by the pound! Seasoned with our signature blend of spices. Served with half-corn cobs and red potatoes.<br />$7.99/lb<br />
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<b>Southern-Style Catfish</b><br />Deep fried cat fish seasoned with our signature spice mix. Served with fries and Tartar sauce.<br />$11.99<br />
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<b>Alligator Tail</b><br />Louisiana alligator tail deep fried. Served with fries and your choice of sauce.<br />$11.99<br />
+						</div>
+
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<b>Boudin</b><br />Pork and rice sausage with casing removed, rolled into balls, breaded, and deep fried.  Served with Creole mustard sauce.<br />$6.99<br />
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<b>Shrimp Po-boy Sandwhich</b><br />Crispy fried shrimp on buttered french bread with cabbage and our signature sauce. Served with fries.<br />$7.99<br />
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<b>Jambalaya</b><br />Sausage, chicken, and shrimp with mixed vegetables, rice, and our signature sauce. Can be ordered extra spicy!<br />$8.99<br />
+						</div>
+					</div>
+				</div>
+				<br />		
 				<p style="text-align:center"><b>Beverages</b></p>
-				<div id="bev">
+				<div class="row">
 					<table>
 						<tr>
-							<td class="bev">Domestic Beer on Tap</td>
-							<td class="bev">$4.00</td>
+							<td>Domestic Beer on Tap</td>
+							<td>$4.00</td>
 						</tr>
 						<tr>
-							<td class="bev">Soda (Pop)</td>
-							<td class="bev">$2.50</td>
+							<td>Soda (Pop)</td>
+							<td>$2.50</td>
 						</tr>
 						<tr>
-							<td class="bev">Lemonade</td>
-							<td class="bev">$3.00</td>
+							<td>Lemonade</td>
+							<td>$3.00</td>
 						</tr>
 						<tr>
-							<td class="bev">Southern Sweet Tea</td>
-							<td class="bev">$2.50</td>
+							<td>Southern Sweet Tea</td>
+							<td>$2.50</td>
 						</tr>
 					</table>
 				</div>
 				<br />
 			</section>
+			<div class="jumbotron">
+				<h2 class="font-italic">Big News - Southern Served is opening a new location!</h2>
+				<h4>543 Fake St, Maple Grove, MN, 55369</h4>
+			</div>
 			<footer>
 				<p>12345 Southern Dr, Roseville, MN, 55113</p>
 				<p>612-555-1234</p>
